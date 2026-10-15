@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <meta name="referrer" content="no-referrer">
+  <link rel="canonical" href="https://yanovo-jiujiu.noisy-pear-6946.chatgpt.site/">
+  <title>正在进入九九九九乘法表</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #293547; background: #f6f3ed; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; }
+    main { box-sizing: border-box; width: min(100%, 32rem); padding: 2rem 1.5rem; text-align: center; }
+    h1 { font-size: 1.5rem; line-height: 1.5; }
+    p { line-height: 1.8; }
+    a { display: inline-block; padding: .8rem 1.3rem; border-radius: .8rem; color: white; background: #405f4a; text-decoration: none; }
+    a:focus-visible { outline: 3px solid #293547; outline-offset: 4px; }
+    .hint { color: #596576; font-size: .9rem; }
+  </style>
+  <noscript><meta http-equiv="refresh" content="0;url=https://yanovo-jiujiu.noisy-pear-6946.chatgpt.site/"></noscript>
+</head>
+<body>
+  <main>
+    <h1>正在进入九九九九乘法表</h1>
+    <p>以后自己使用或分享给朋友，都使用同一个主站。<br>进入后请使用账号和密码登录。</p>
+    <p><a href="https://yanovo-jiujiu.noisy-pear-6946.chatgpt.site/" rel="noreferrer">进入主站</a></p>
+    <p class="hint">如果没有自动跳转，请点击上方按钮。建议把主站加入书签。</p>
+  </main>
+  <script>
+    (() => {
+      const appRouteFragment = function appRouteFragment(hash) {
+  if (typeof hash !== 'string' || hash.length > 1600) return '';
+  const route = hash.match(/^#\/?(library|create|chat|phone|api|members)(?:\/(.+))?$/);
+  if (!route) return '';
+  const [, section, encodedId] = route;
+  if (!encodedId) return `#${section}`;
+  if (section !== 'chat' && section !== 'phone') return '';
+  try {
+    const id = decodeURIComponent(encodedId);
+    if (!id || id.length > 500 || /[\u0000-\u001f\u007f?&#=]/.test(id)) return '';
+    return `#${section}/${encodeURIComponent(id)}`;
+  } catch {
+    return '';
+  }
+};
+      window.location.replace("https://yanovo-jiujiu.noisy-pear-6946.chatgpt.site/" + appRouteFragment(window.location.hash));
+    })();
+  </script>
+</body>
+</html>
